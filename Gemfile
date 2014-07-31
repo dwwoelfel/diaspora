@@ -33,7 +33,7 @@ gem 'rack-cors', '0.2.8', :require => 'rack/cors'
 
 ENV['DB'] ||= 'mysql'
 
-gem 'rspec_junit_formatter', :git => 'git@github.com:circleci/rspec_junit_formatter.git', :branch => 'master'
+gem 'rspec_junit_formatter', :git => 'git@github.com:circleci/rspec_junit_formatter.git', :branch => 'rspec3'
 
 gem 'mysql2', '0.3.11' if ENV['DB'] == 'all' || ENV['DB'] == 'mysql'
 gem 'pg',     '0.15.1' if ENV['DB'] == 'all' || ENV['DB'] == 'postgres'
