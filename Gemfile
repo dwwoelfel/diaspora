@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rspec_junit_formatter', :git => 'git@github.com:circleci/rspec_junit_formatter.git', :branch => 'master'
+gem 'rspec_junit_formatter', :git => 'git@github.com:circleci/rspec_junit_formatter.git', :branch => 'rspec3'
 
 gem 'rails', '3.2.18'
 
