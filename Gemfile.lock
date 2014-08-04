@@ -1,3 +1,13 @@
+GIT
+  remote: git@github.com:circleci/rspec_junit_formatter.git
+  revision: df6dd2a045a3e03e6e4058342d1cbe5a243bcbe0
+  branch: master
+  specs:
+    rspec_junit_formatter (0.1.7.pre)
+      builder
+      rspec (~> 2.0)
+      rspec-core (!= 2.12.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -535,6 +545,7 @@ DEPENDENCIES
   roxml (= 3.1.6)
   rspec-instafail (= 0.2.4)
   rspec-rails (= 2.14.2)
+  rspec_junit_formatter!
   ruby-oembed (= 0.8.9)
   sass-rails (= 3.2.6)
   selenium-webdriver (= 2.42.0)
